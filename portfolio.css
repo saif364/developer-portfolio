@@ -161,3 +161,43 @@ nav ul {
 }
 
 /* resume styles */
+
+.resume-content {
+  display: flex;
+  gap: 40px;
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  margin-bottom: 10px;
+
+  color: #474747;
+}
+
+.resume .sub-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 20px;
+
+  /* Dark 03 */
+
+  color: #757575;
+}
+.resume .description {
+  color: #757575;
+}
+
+.resume {
+  margin-top: 130px;
+}
+
+.resume-item {
+  margin: 30px 0;
+}
+.resume-button {
+  margin-top: 50px;
+  text-align: center;
+}
