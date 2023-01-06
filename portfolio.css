@@ -100,7 +100,7 @@ nav ul {
 }
 
 .section-description {
-  text-align: center;
+  text-align: left;
 
   color: #757575;
   margin-bottom: 30px;
@@ -199,5 +199,29 @@ nav ul {
 }
 .resume-button {
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
+}
+
+/* contact styles */
+
+.contact .section-title {
+  text-align: left;
+}
+.contact {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+
+.contact input[type="text"],
+textarea,
+input[type="email"] {
+  margin-bottom: 24px;
+  width: 100%;
+  border: 0;
+  padding: 18px 30px;
 }
